@@ -14,6 +14,7 @@ using System.Linq;
 
 namespace AIChat
 {
+    [UnityEngine.Scripting.Preserve]
     public class AIChatManager
     {
         static IAiService AIService = new AiService();
@@ -91,7 +92,7 @@ namespace AIChat
                             },
                             errorCallback: (ex) => // 异常处理
                             {
-                                Console.WriteLine(ex);
+                                Debug.LogError(ex);
                             }
                         );
 

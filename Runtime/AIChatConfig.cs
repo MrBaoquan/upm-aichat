@@ -8,6 +8,7 @@ using DNHper;
 
 namespace AIChat
 {
+    [UnityEngine.Scripting.Preserve]
     [SerializedAt(AppPath.StreamingDir)]
     public class AIChatConfig : UConfig
     {

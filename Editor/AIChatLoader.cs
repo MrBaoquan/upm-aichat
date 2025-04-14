@@ -10,5 +10,6 @@ public class AIChatLoader
     static AIChatLoader()
     {
         AssemblyCfgUtil.AddAssembly("AIChat.Runtime");
+        LinkerCfgUtil.PreserveAssembly("DeepSeek.Sdk");
     }
 }

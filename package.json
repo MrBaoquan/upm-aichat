@@ -4,11 +4,11 @@
         "name": "MrBaoquan",
         "email": "mrma617@gmail.com"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "AI Chat",
     "description": "AI Chat For Unity",
     "dependencies": {
-        "com.parful.unihper": "1.25.327"
+        "com.parful.unihper": "1.25.414"
     },
 
     "unity": "2019.1",
